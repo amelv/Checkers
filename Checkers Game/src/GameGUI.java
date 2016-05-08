@@ -6,10 +6,10 @@ public class GameGUI extends JApplet implements ActionListener, MouseListener {
 	
 	private final int APPLET_WIDTH = 100;
 	private final int APPLET_HEIGHT = 100;
-	private board board;
+	private Board board;
 	
 	public GameGUI () {
-		board = new board();
+		board = new Board();
 		
 	}
 	@Override

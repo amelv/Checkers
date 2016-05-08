@@ -3,7 +3,7 @@ public class runner {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 
-		board board = new board();
+		Board board = new Board();
 		int turnCount = 0, s = 1, oldX=-1, oldY=-1, newX=-1, newY=-1;
 		boolean legal;
 		while(s != 0)
